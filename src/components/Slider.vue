@@ -44,7 +44,7 @@
     k.value = k.value === 0 ? 9 : k.value - 1
   }
 
-  const getImage = (img) => `/src/assets/${img}`
+  const getImage = (img) => `/images/${img}`
 
   onMounted(() => {
     setInterval(() => {
